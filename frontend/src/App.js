@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Send, User, Award, MessageSquare, Terminal, ChevronRight, Mail, LogOut, Beaker, Zap } from 'lucide-react';
+import { Send, User, Award, ChevronRight, Mail, LogOut } from 'lucide-react';
 
 function App() {
   const [isStarted, setIsStarted] = useState(false);
